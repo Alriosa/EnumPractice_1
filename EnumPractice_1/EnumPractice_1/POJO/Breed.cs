@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace EnumPractice_1
 {
-    public class Animal
+    public enum Breed
     {
-        public string name;
-        public int age;
-        public float happiness;
-    }
+        Bulldog,
+        Boxer,
+        Chihuahua,
+        Briard
+    };
 }
